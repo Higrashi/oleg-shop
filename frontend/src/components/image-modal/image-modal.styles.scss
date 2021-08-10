@@ -1,0 +1,51 @@
+.modal-window {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: 3s;
+}
+
+.modal-img-box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: black;
+    font-size: 5.4rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.modal-image {
+    max-width: 50%;
+    max-height: 90%;
+}
+
+
+@media screen and (max-width: 700px) {
+    .modal-image {
+        max-width: 90%;
+    }
+
+    .modal-close-btn {
+        top: 0;
+        right: 5px;
+        font-size: 4rem;
+    }
+}

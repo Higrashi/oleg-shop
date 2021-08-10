@@ -1,0 +1,19 @@
+.order-created-page {
+    min-height: 100vh;
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-created-info {
+    width: 70%;
+
+    h3,h2{
+      color: black;
+      font-weight: lighter;
+      font-family: 'Inter',sans-serif;
+      font-size: 3rem;
+      margin: 50px 0px; 
+    }
+}
